@@ -11,8 +11,6 @@ metadata:
 spec:
   template:
     spec:
-      $setElementOrder/containers:
-      - name: podinfod
       containers:
       - image: stefanprodan/podinfo:1.4.4
         name: podinfod
